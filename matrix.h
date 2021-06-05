@@ -1,3 +1,14 @@
+/**
+ * @file matrix.h
+ * @author Chen Zhaorui (chenzhaorui@qq.com)
+ * @brief A matrix template class
+ * @version 0.1
+ * @date 2021-06-05
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #ifndef _MATRIX_H_CC_
 #define _MATRIX_H_CC_
 
@@ -200,8 +211,7 @@ Matrix<T> matrix_input()
 	std::cout << "Input matrix rows:";
 	std::cin.clear();
 	std::cin >> n_row;
-	std::cout << "Input matrix columns:"
-	std::cin.clear();
+	std::cout << "Input matrix columns:" std::cin.clear();
 	std::cin >> n_col;
 
 	Matrix<T> mat = Matrix<T>(n_row, n_col);

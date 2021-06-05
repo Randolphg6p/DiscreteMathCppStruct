@@ -1,5 +1,9 @@
 {
+    "doxdocgen.file.copyrightTag": [
+        "@copyright Copyright (c) {year}. Chen Zhaorui(chenzhaorui@qq.com)"
+    ],
     "files.associations": {
-        "utility": "cpp"
+        "utility": "cpp",
+        "iostream": "cpp"
     }
 }

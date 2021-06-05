@@ -1,3 +1,14 @@
+/**
+ * @file graph.h
+ * @author Chen Zhaorui (chenzhaorui@qq.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-06-05
+ * 
+ * @copyright Copyright (c) 2021. Chen Zhaorui(chenzhaorui@qq.com)
+ * 
+ */
+
 #ifndef _GRAPH_H_CC_
 #define _GRAPH_H_CC_
 
@@ -7,9 +18,22 @@
 template <typename T = double>
 class Graph;
 
+/**
+ * @brief 
+ * 
+ * @tparam T 
+ * @param output 
+ * @param graph 
+ * @return std::ostream& 
+ */
 template <typename T>
 std::ostream &operator<<(std::ostream &output, const Graph<T> &graph);
 
+/**
+ * @brief 
+ * 
+ * @tparam T 
+ */
 template <typename T>
 class Graph
 {
