@@ -17,9 +17,11 @@ int main()
 void test_matrix()
 {
     Matrix<int> mat = Matrix<int>(3, 3);
-    cout << mat;
+    cout << mat.T() << endl;
 }
 
 void test_graph()
 {
+    Graph<int> graph = Graph<int>(Matrix<int>(5) * 4);
+    cout << graph << endl;
 }

@@ -1,4 +1,5 @@
 {
+    "doxdocgen.file.versionTag": "@version 0.1.1",
     "doxdocgen.file.copyrightTag": [
         "@copyright Copyright (c) {year}. Chen Zhaorui(chenzhaorui@qq.com)"
     ],
